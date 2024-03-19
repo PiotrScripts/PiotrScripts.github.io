@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information regarding AI object detection">
+    <meta name="keywords" content="AI,Model,Object,Detection,Cheat,AntiCheat,Bypass">
+    <meta name="author" content="Piotr Grzywacz">
+    <title>Cheat AC - Info Gathering</title>
+    <link rel="stylesheet" href="styles/mainstyle.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <style>
+        tr,td,th { padding: 0.5em; }
+    </style>
+</head>
+
+<body> 
+    <header>
+        <img src="images/logo.png" alt="Logo" id="headerImage">
+        <h1 class="headertitle">Cheat AC</h1>
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a id="active" href="infogathering.html">Info Gathering</a></li>
+                <li><a href="mousemanipulation.html">Mouse Manipulation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>What is AI object detection</h2>
+            <p>
+                AI object detection is the process of an AI model detecting objects in an image, we can use this to gather positional information regarding our targets in game.
+                <br>This process needs to be highly optimized and ran using a GPU as latency can cause our information to be outdated, however the advantage of this is that it can be fully undetectable.
+            </p>
+        </section>
+        <section>
+            <h2>Which AI model to use</h2>
+            <p>
+                Depending on your computing power, you should choose between YOLOv5 and YOLOv8.
+                <br>YOLOv5 is a bit faster than YOLOv8, however it is also less accurate, so if you have a high end GPU you should use YOLOv8 for better results.
+            </p>
+            <table style="border: 0.1em solid white; padding: 0.3em;">
+                <tr>
+                    <th>Model</th>
+                    <th>Precision</th>
+                    <th>Speed</th>
+                </tr>
+                <tr>
+                    <td>YOLOv5</td>
+                    <td>Fairly precise</td>
+                    <td>Very fast</td>
+                </tr>
+                <tr>
+                    <td>YOLOv8</td>
+                    <td>Very precise</td>
+                    <td>Fairly fast</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>I trained an AI model, what now?</h2>
+            <p>
+                Now you should consider what language to use, YOLO models run really fast on Python but you can also use C# with ONNX to have similar speeds
+            </p>
+        </section>
+        <section>
+            <h2>I'm finished with this, what's next?</h2>
+            <p>
+                Next you can use your data in any way you want, but assuming you want to make aim assist, pass it onto an Arduino Leonardo which you can learn more about
+                <a href="mousemanipulation.html"> here</a>.
+            </p>
+        </section>
+        <h3>This website is a college project</h3>
+    </main>
+    <footer>
+        <p>Copyright&copy; 2024 Piotr Grzywacz</p>
+    </footer>
+</body>
+</html>
